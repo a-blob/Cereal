@@ -17,7 +17,7 @@ short_durations = [120]*50 + [240]*40 + [480]*30  # 16th note to quarter note
 long_durations = [960]*20 + [1440]*10 + [2880]*5  # half note to two whole notes
 
 # Define the range of pause durations (in ticks)
-pause_durations = [0]*80 + [480]*10 + [960]*7 + [1440]*2 + [2880]
+pause_durations = [0]*80 + [480]*1 + [960]*7 + [1440]*10 + [2880]*2
 # no pause, quarter note, half note, whole note, two whole notes
 
 # Generate 100 random notes
